@@ -3,12 +3,23 @@
 label{color: #037bc0;}
 
 .pagina{ color: black;
-        font-size: 24px;}  
+        font-size: 20px;}  
 
 h3{ font-size: 34px;   }
 
 
 h4{font-size: 44px; }
+
+h1{
+        color: white;
+        text-decoration-color: white;
+}
+
+
+h5{
+ font-size: 24px;
+ color: white;       
+}
 
 .text2{
         background-color: grey;
@@ -26,23 +37,23 @@ h4{font-size: 44px; }
         background-color: rgb(14, 132, 228);
         width: 100;
         text-align: center;
-        padding: 25px;
-        height: 250px;
+        padding: 1%;
+        height: 300px;
         cursor: pointer;
         color: white;
-        border-radius: 10px; /*redondeo de esquinas*/
-        font-size: 14px; /*tamaño de letra */}
+        border-radius: 2%; /*redondeo de esquinas*/
+        font-size: 2%; /*tamaño de letra */}
 
 .cuadroazul1{
-        background-color: rgb(14, 132, 228);
+        background-color: rgb(228, 14, 210);
         width: 350;
         height: 390px;
         text-align: center;
-        padding: 50px;
+        padding: 5%;
         cursor: pointer;
-        color: white;
-        border-radius: 10px; /*redondeo de esquinas*/
-        font-size: 19px; /*tamaño de letra */
+        color: rgb(90, 16, 16);
+        border-radius: 4px; /*redondeo de esquinas*/
+        
 }
 
 .button{
@@ -85,13 +96,12 @@ h4{font-size: 44px; }
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 80px;
   border-color: grey;
   border-width: 2px;
-  border-style: solid;
   margin: auto;
-  width: 90%;     /*  ancho */
-  height: 100;    /*  alto */
+  width: 50;     /*  ancho */
+  height: 50;    /*  alto */
 }
 
 .hijo{
